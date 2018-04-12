@@ -1,0 +1,24 @@
+{
+  "name": "web-content-scraper",
+  "version": "1.0.0",
+  "description": "Treehouse Techdegree Project 6, April 2018.",
+  "main": "scraper.js",
+  "scripts": {
+    "test": "./node_modules/.bin/eslint scraper.js",
+    "start": "node scraper.js"
+  },
+  "engines": {
+    "node": "^8.9.3"
+  },
+  "author": "Alessandro Pepe, github apepe1024",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "json2csv": "3.6.2",
+    "moment": "^2.22.0",
+    "request": "^2.85.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  }
+}
