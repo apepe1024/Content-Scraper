@@ -15,6 +15,7 @@ const errorHandler = function(error) {
     if (error) {
         let errorDate = new Date();
         let errorLog = '[' + errorDate + '] There was an error! ' + error.code + ' ' + error.message + '\r\n';
+        console.error(errorLog);
         //log error to file
         fs.appendFile('./data/scrape-error.log', errorLog, function(error) {
             if (error) throw error;
